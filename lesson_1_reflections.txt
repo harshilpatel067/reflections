@@ -1,0 +1,28 @@
+my notes
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git allows logical commits.
+we can track changes using logs commit. 
+all chnages can be tracked using commit and not particular file change.
+
+
+one commit can reflect changes in multiple files.
+
+git log
+use this get history of chanages with commit ids
+
+git diff
+use it to identify the chnage between two commits
+
+
+How might using version control make you more confident to make changes that could break something?
+
+we revert to any commit point using git checkout
+
+
+solve git clone problrms
+
+https://aircrack.wordpress.com/2014/02/12/problem-solving-git-error-setting-certificate-verify-locations/
+
+Disable ssl verification worked
+git config --global http.sslverify "false"

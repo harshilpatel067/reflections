@@ -4,3 +4,17 @@ it creates Git directory. Its neccessory create commits.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 staging area is part where we start monitoring the chnages which are not finalized. It allows chnages to file before its commited and let us decide when to commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+we can add llist of logical chnages to staging area and make a commit. so that all commit will have a logical chnage.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+branch can create a copy of master branch and can be used for any experimental purpose and still master branch will be available for use.
+
+How do the diagrams help you visualize the branch structure?
+we can identify the flow of development and versions.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+autmatic merge will identify common files and do the merge only if there is no conflict.
+Manual Merge will require as to check all chnages manually even is the change is simple.
